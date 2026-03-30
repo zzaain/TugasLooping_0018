@@ -42,3 +42,10 @@ void outputPrima() {
     else
         cout << n << " bukan bilangan prima" << endl;
 }
+// prosedur output fibonacci
+void outputFibonacci() {
+    if (cekFibonacci(n))
+        cout << n << " termasuk deret Fibonacci" << endl;
+    else
+        cout << n << " bukan deret Fibonacci" << endl;
+}
