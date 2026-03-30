@@ -49,3 +49,13 @@ void outputFibonacci() {
     else
         cout << n << " bukan deret Fibonacci" << endl;
 }
+
+// fungsi menu
+void menu() {
+    cout << "\n=== MENU ===" << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar" << endl;
+    cout << "Pilih: ";
+    cin >> pilihan;
+}
