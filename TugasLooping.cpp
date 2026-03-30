@@ -59,3 +59,6 @@ void menu() {
     cout << "Pilih: ";
     cin >> pilihan;
 }
+int main() {
+    
+}
