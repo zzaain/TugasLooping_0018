@@ -66,8 +66,12 @@ int main() {
             case 1:
                 input();
                 outputPrima();
+
+                case 2:
+                input();
+                outputFibonacci();
                 break;
-            
+           
         }
     }
 }
