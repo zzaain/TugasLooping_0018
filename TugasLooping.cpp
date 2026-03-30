@@ -18,7 +18,7 @@ bool cekPrima(int n) {
 
 // fungsi cek bilangan fibonacci
 bool cekFibonacci(int n) {
-    
+
     int a = 0, b = 1, c;
      while (a <= n) {
         if (a == n)
@@ -28,4 +28,10 @@ bool cekFibonacci(int n) {
         b = c;
     }
     return false;
+}
+
+// prosedur input
+void input() {
+    cout << "Masukkan bilangan: ";
+    cin >> n;
 }
