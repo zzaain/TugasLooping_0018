@@ -71,6 +71,10 @@ int main() {
                 input();
                 outputFibonacci();
                 break;
+
+                 case 0:
+                cout << "Program selesai." << endl;
+                return 0;
            
         }
     }
