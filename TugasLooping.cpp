@@ -35,6 +35,7 @@ void input() {
     cout << "Masukkan bilangan: ";
     cin >> n;
 }
+
 // prosedur output prima
 void outputPrima() {
     if (cekPrima(n))
@@ -59,6 +60,7 @@ void menu() {
     cout << "Pilih: ";
     cin >> pilihan;
 }
+
 int main() {
     while (true) {
         menu();
@@ -78,8 +80,6 @@ int main() {
 
                 default:
                 cout << "Pilihan tidak valid!" << endl;
-            
-           
         }
     }
 }
