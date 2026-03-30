@@ -60,5 +60,8 @@ void menu() {
     cin >> pilihan;
 }
 int main() {
-    
+    while (true) {
+        menu();
+
+    }
 }
