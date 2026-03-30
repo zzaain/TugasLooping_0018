@@ -15,3 +15,7 @@ bool cekPrima(int n) {
     }
     return true;
 }
+
+// fungsi cek bilangan fibonacci
+bool cekFibonacci(int n) {
+    int a = 0, b = 1, c;
