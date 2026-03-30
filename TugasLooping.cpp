@@ -61,6 +61,6 @@ void menu() {
 }
 int main() {
     while (true) {
-    
+        menu();
     }
 }
